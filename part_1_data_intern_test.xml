@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>part_1_data_intern_test</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="static_instance-private_public-1">
+            <value>Public</value>
+          </text>
+          <text id="static_instance-private_public-0">
+            <value>Private</value>
+          </text>
+          <text id="static_instance-county_name-2">
+            <value>Nakuru</value>
+          </text>
+          <text id="static_instance-school_name-11">
+            <value>Aga Khan Primary School, Kisumu.</value>
+          </text>
+          <text id="static_instance-school_name-10">
+            <value>Karanda Primary School, Ahero</value>
+          </text>
+          <text id="static_instance-institution_type-1">
+            <value>Boys Only</value>
+          </text>
+          <text id="static_instance-institution_type-0">
+            <value>Mixed School</value>
+          </text>
+          <text id="static_instance-institution_type-3">
+            <value>Day Only</value>
+          </text>
+          <text id="static_instance-institution_type-2">
+            <value>Girls Only</value>
+          </text>
+          <text id="static_instance-institution_type-4">
+            <value>Boarding Only</value>
+          </text>
+          <text id="static_instance-sponsor_names-0">
+            <value>Central Government</value>
+          </text>
+          <text id="static_instance-sponsor_names-1">
+            <value>Lovcal Government Authority</value>
+          </text>
+          <text id="static_instance-sponsor_names-2">
+            <value>NGO/CBO</value>
+          </text>
+          <text id="static_instance-sponsor_names-3">
+            <value>Private Individual/ Organisation</value>
+          </text>
+          <text id="static_instance-sponsor_names-4">
+            <value>Religious Organisation</value>
+          </text>
+          <text id="static_instance-sponsor_names-5">
+            <value>Other(Specify)</value>
+          </text>
+          <text id="static_instance-county_name-1">
+            <value>Mombasa</value>
+          </text>
+          <text id="static_instance-county_name-0">
+            <value>Nairobi</value>
+          </text>
+          <text id="static_instance-school_name-3">
+            <value>Aga Khan Primary School</value>
+          </text>
+          <text id="static_instance-school_name-2">
+            <value>City Primary School, Ngara</value>
+          </text>
+          <text id="static_instance-school_name-1">
+            <value>Kilimani Primary School,</value>
+          </text>
+          <text id="static_instance-school_name-0">
+            <value>Aga Khan Junior Academy, Nairobi</value>
+          </text>
+          <text id="static_instance-school_name-7">
+            <value>Langa langa Primary School</value>
+          </text>
+          <text id="static_instance-school_name-6">
+            <value>Milimani Primary School</value>
+          </text>
+          <text id="static_instance-school_name-5">
+            <value>MM Shah Primary School</value>
+          </text>
+          <text id="static_instance-school_name-4">
+            <value>Fahari Primary School</value>
+          </text>
+          <text id="static_instance-school_name-9">
+            <value>Bonde Primary School, Kombewa</value>
+          </text>
+          <text id="static_instance-school_name-8">
+            <value>Gilgil DEB Primary School</value>
+          </text>
+          <text id="static_instance-county_name-3">
+            <value>Kisumu</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <part_1_data_intern_test id="part_1_data_intern_test">
+          <start/>
+          <end/>
+          <today/>
+          <school_location>
+            <county/>
+            <school/>
+            <store_gps/>
+            <store_image/>
+          </school_location>
+          <school_details>
+            <school_type/>
+            <sponsor_names/>
+            <sponsor_names_other/>
+            <institution_type/>
+            <number_of_females/>
+            <number_of_males/>
+            <total_students/>
+            <classroom_numbers/>
+            <teacher_numbers/>
+            <classes_numbers/>
+            <pupils_numbers/>
+            <teacher_name/>
+          </school_details>
+          <meta>
+            <instanceID/>
+          </meta>
+        </part_1_data_intern_test>
+      </instance>
+      <instance id="private_public">
+        <root>
+          <item>
+            <itextId>static_instance-private_public-0</itextId>
+            <name>private</name>
+          </item>
+          <item>
+            <itextId>static_instance-private_public-1</itextId>
+            <name>public</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="institution_type">
+        <root>
+          <item>
+            <itextId>static_instance-institution_type-0</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-institution_type-1</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-institution_type-2</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-institution_type-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-institution_type-4</itextId>
+            <name>5</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="school_name">
+        <root>
+          <item>
+            <itextId>static_instance-school_name-0</itextId>
+            <county>nairobi</county>
+            <name>akjn</name>
+          </item>
+          <item>
+            <itextId>static_instance-school_name-1</itextId>
+            <county>nairobi</county>
+            <name>kps</name>
+          </item>
+          <item>
+            <itextId>static_instance-school_name-2</itextId>
+            <county>nairobi</county>
+            <name>cps</name>
+          </item>
+          <item>
+            <itextId>static_instance-school_name-3</itextId>
+            <county>mombasa</county>
+            <name>akps</name>
+          </item>
+          <item>
+            <itextId>static_instance-school_name-4</itextId>
+            <county>mombasa</county>
+            <name>fps</name>
+          </item>
+          <item>
+            <itextId>static_instance-school_name-5</itextId>
+            <county>mombasa</county>
+            <name>msps</name>
+          </item>
+          <item>
+            <itextId>static_instance-school_name-6</itextId>
+            <county>nakuru</county>
+            <name>mps</name>
+          </item>
+          <item>
+            <itextId>static_instance-school_name-7</itextId>
+            <county>nakuru</county>
+            <name>llps</name>
+          </item>
+          <item>
+            <itextId>static_instance-school_name-8</itextId>
+            <county>nakuru</county>
+            <name>gdps</name>
+          </item>
+          <item>
+            <itextId>static_instance-school_name-9</itextId>
+            <county>kisumu</county>
+            <name>bpsk</name>
+          </item>
+          <item>
+            <itextId>static_instance-school_name-10</itextId>
+            <county>kisumu</county>
+            <name>kpsa</name>
+          </item>
+          <item>
+            <itextId>static_instance-school_name-11</itextId>
+            <county>kisumu</county>
+            <name>akpsk</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sponsor_names">
+        <root>
+          <item>
+            <itextId>static_instance-sponsor_names-0</itextId>
+            <name>central_government</name>
+          </item>
+          <item>
+            <itextId>static_instance-sponsor_names-1</itextId>
+            <name>local_government_authority</name>
+          </item>
+          <item>
+            <itextId>static_instance-sponsor_names-2</itextId>
+            <name>NGO_CBO</name>
+          </item>
+          <item>
+            <itextId>static_instance-sponsor_names-3</itextId>
+            <name>private_individual_organisation</name>
+          </item>
+          <item>
+            <itextId>static_instance-sponsor_names-4</itextId>
+            <name>religious_organisation</name>
+          </item>
+          <item>
+            <itextId>static_instance-sponsor_names-5</itextId>
+            <name>1</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="county_name">
+        <root>
+          <item>
+            <itextId>static_instance-county_name-0</itextId>
+            <name>nairobi</name>
+          </item>
+          <item>
+            <itextId>static_instance-county_name-1</itextId>
+            <name>mombasa</name>
+          </item>
+          <item>
+            <itextId>static_instance-county_name-2</itextId>
+            <name>nakuru</name>
+          </item>
+          <item>
+            <itextId>static_instance-county_name-3</itextId>
+            <name>kisumu</name>
+          </item>
+        </root>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/part_1_data_intern_test/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/part_1_data_intern_test/end" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/part_1_data_intern_test/today" type="date"/>
+      <bind nodeset="/part_1_data_intern_test/school_location/county" type="select1"/>
+      <bind nodeset="/part_1_data_intern_test/school_location/school" type="select1"/>
+      <bind nodeset="/part_1_data_intern_test/school_location/store_gps" type="geopoint"/>
+      <bind nodeset="/part_1_data_intern_test/school_location/store_image" type="binary"/>
+      <bind nodeset="/part_1_data_intern_test/school_details/school_type" type="select1"/>
+      <bind nodeset="/part_1_data_intern_test/school_details/sponsor_names" type="select1"/>
+      <bind nodeset="/part_1_data_intern_test/school_details/sponsor_names_other" relevant="selected( /part_1_data_intern_test/school_details/sponsor_names ,'1')" type="string"/>
+      <bind nodeset="/part_1_data_intern_test/school_details/institution_type" type="select"/>
+      <bind constraint=".&gt;=0" nodeset="/part_1_data_intern_test/school_details/number_of_females" relevant=" /part_1_data_intern_test/school_details/institution_type !=1" type="int"/>
+      <bind constraint=".&gt;=0" nodeset="/part_1_data_intern_test/school_details/number_of_males" relevant=" /part_1_data_intern_test/school_details/institution_type !=2" type="int"/>
+      <bind calculate="( /part_1_data_intern_test/school_details/number_of_females + /part_1_data_intern_test/school_details/number_of_males )" constraint=".&gt;=0" nodeset="/part_1_data_intern_test/school_details/total_students" type="string"/>
+      <bind constraint=".&gt;=0" nodeset="/part_1_data_intern_test/school_details/classroom_numbers" type="int"/>
+      <bind constraint=".&gt;=0" nodeset="/part_1_data_intern_test/school_details/teacher_numbers" type="int"/>
+      <bind constraint=".&gt;=0" nodeset="/part_1_data_intern_test/school_details/classes_numbers" type="int"/>
+      <bind constraint=".&gt;=0" nodeset="/part_1_data_intern_test/school_details/pupils_numbers" type="int"/>
+      <bind nodeset="/part_1_data_intern_test/school_details/teacher_name" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/part_1_data_intern_test/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/part_1_data_intern_test/school_location">
+      <label>School location</label>
+      <select1 ref="/part_1_data_intern_test/school_location/county">
+        <label>1. County</label>
+        <item>
+          <label>Nairobi</label>
+          <value>nairobi</value>
+        </item>
+        <item>
+          <label>Mombasa</label>
+          <value>mombasa</value>
+        </item>
+        <item>
+          <label>Nakuru</label>
+          <value>nakuru</value>
+        </item>
+        <item>
+          <label>Kisumu</label>
+          <value>kisumu</value>
+        </item>
+      </select1>
+      <select1 ref="/part_1_data_intern_test/school_location/school">
+        <label>2. Name of school</label>
+        <itemset nodeset="instance('school_name')/root/item[county= /part_1_data_intern_test/school_location/county ]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <input ref="/part_1_data_intern_test/school_location/store_gps">
+        <label>3. Collect the GPS coordinates of the school</label>
+        <hint>GPS coordinates can only be collected when outside.</hint>
+      </input>
+      <upload mediatype="image/*" ref="/part_1_data_intern_test/school_location/store_image">
+        <label>4. Take a photo of the school's administration block</label>
+      </upload>
+    </group>
+    <group ref="/part_1_data_intern_test/school_details">
+      <label>School Details</label>
+      <select1 ref="/part_1_data_intern_test/school_details/school_type">
+        <label>1. Is this school public or private?</label>
+        <item>
+          <label>Private</label>
+          <value>private</value>
+        </item>
+        <item>
+          <label>Public</label>
+          <value>public</value>
+        </item>
+      </select1>
+      <select1 ref="/part_1_data_intern_test/school_details/sponsor_names">
+        <label>2. Who sponsors this school?</label>
+        <item>
+          <label>Central Government</label>
+          <value>central_government</value>
+        </item>
+        <item>
+          <label>Lovcal Government Authority</label>
+          <value>local_government_authority</value>
+        </item>
+        <item>
+          <label>NGO/CBO</label>
+          <value>NGO_CBO</value>
+        </item>
+        <item>
+          <label>Private Individual/ Organisation</label>
+          <value>private_individual_organisation</value>
+        </item>
+        <item>
+          <label>Religious Organisation</label>
+          <value>religious_organisation</value>
+        </item>
+        <item>
+          <label>Other(Specify)</label>
+          <value>1</value>
+        </item>
+      </select1>
+      <input ref="/part_1_data_intern_test/school_details/sponsor_names_other">
+        <label>Other (Specify)</label>
+      </input>
+      <select ref="/part_1_data_intern_test/school_details/institution_type">
+        <label>3.Institution type (Select all that are applicable)</label>
+        <item>
+          <label>Mixed School</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>Boys Only</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Girls Only</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Day Only</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>Boarding Only</label>
+          <value>5</value>
+        </item>
+      </select>
+      <input ref="/part_1_data_intern_test/school_details/number_of_females">
+        <label>4. What is the number of female students in the school?</label>
+      </input>
+      <input ref="/part_1_data_intern_test/school_details/number_of_males">
+        <label>5. What is the number of male students in the school?</label>
+      </input>
+      <input ref="/part_1_data_intern_test/school_details/classroom_numbers">
+        <label>7. How many classrooms in total does the school have?</label>
+      </input>
+      <input ref="/part_1_data_intern_test/school_details/teacher_numbers">
+        <label>8. How many teachers work at this school?</label>
+      </input>
+      <input ref="/part_1_data_intern_test/school_details/classes_numbers">
+        <label>9. How many classes are in the school?</label>
+      </input>
+      <input ref="/part_1_data_intern_test/school_details/pupils_numbers">
+        <label>a. How many pupils are in each class?</label>
+      </input>
+      <input ref="/part_1_data_intern_test/school_details/teacher_name">
+        <label>b. What is the name of each class teacher?</label>
+      </input>
+    </group>
+  </h:body>
+</h:html>
